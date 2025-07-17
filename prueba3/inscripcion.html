@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario de Inscripción</title>
+  <link rel="stylesheet" href="inscripcion.css">
+</head>
+<body>
+  <main class="container">
+    <h1>Inscripción de Materias</h1>
+    
+    <form id="formulario">
+      <label for="nombre">Nombre del estudiante:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="materias">Selecciona materias:</label>
+      <select id="materias" name="materias" multiple required>
+        
+      </select>
+
+      <button type="submit">Inscribir</button>
+    </form>
+
+    <p id="mensaje" class="mensaje"></p>
+  </main>
+
+  <script src="inscripcion.js"></script>
+</body>
+</html>
